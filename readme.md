@@ -23,6 +23,5 @@ Movitate Me - AI is a fun and interactive motivation generator that provides per
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movitate-me-ai.git
-cd movitate-me-ai
+git clone https://github.com/shubhamrawat090/Movitate-Me---AI.git
 ```
