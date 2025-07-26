@@ -2,13 +2,14 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 import { SYSTEM_INSTRUCTION } from '../constants';
 
-const MODEL_NAME = 'gemini-1.5-pro-latest';
+const MODEL_NAME = 'gemini-2.5-flash';
 
-if (!process.env.API_KEY) {
+if (!process.env.GEMINI_API_KEY) {
   throw new Error("VITE_API_KEY environment variable not set. Please add it to your .env file.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+console.log(process.env)
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // Create a single chat instance to maintain conversation history
 const chat: Chat = ai.chats.create({
