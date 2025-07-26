@@ -1,4 +1,4 @@
-Build a full-stack app called "Motivate Me" using:
+Build a full-stack app called "Mowitate Me" using:
 
 🚀 Tech Stack:
 - Frontend: React + Tailwind CSS (Vite or Create React App)
@@ -19,16 +19,16 @@ AI: "Ah yes, future world champion of naps! Now get up champ, your dreams won’
 
 📌 Requirements:
 1️⃣ Backend (Node.js + Express)
-- Create server.js with an endpoint POST /motivate
+- Create server.js with an endpoint POST /mowitate
 - Takes { message } in JSON
 - Calls Gemini API using GEMINI_API_KEY from .env
 - Returns AI response JSON
 
 2️⃣ Frontend (React + Tailwind)
 - Simple UI with:
-  - Title: "Motivate Me 🚀"
+  - Title: "Mowitate Me 🚀"
   - Input box for user message
-  - Button: "Motivate Me!"
+  - Button: "Mowitate Me!"
   - Display AI response in a chat-like card
 - Use fetch or axios to call the backend
 
@@ -52,6 +52,6 @@ AI: "Ah yes, future world champion of naps! Now get up champ, your dreams won’
 6️⃣ Final Instructions:
 - The backend runs via node server.js
 - The frontend runs via npm run dev inside /client
-- Make sure to use fetch("http://localhost:5000/motivate") or similar in frontend
+- Make sure to use fetch("http://localhost:5000/mowitate") or similar in frontend
 
 ⚠️ Output all required code for backend and frontend in one response.

@@ -2,7 +2,7 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 import { SYSTEM_INSTRUCTION } from '../constants';
 
-const MODEL_NAME = 'gemini-2.5-pro';
+const MODEL_NAME = 'gemini-1.5-pro-latest';
 
 if (!process.env.API_KEY) {
   throw new Error("VITE_API_KEY environment variable not set. Please add it to your .env file.");

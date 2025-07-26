@@ -25,7 +25,7 @@ const InputForm: React.FC<InputFormProps> = ({ userInput, setUserInput, onSubmit
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Message MotivateBot..."
+                placeholder="Message MowitateBot..."
                 className="flex-grow p-3 text-slate-200 bg-slate-700/80 border-2 border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all duration-300 resize-none max-h-40"
                 disabled={isLoading}
                 rows={1}
